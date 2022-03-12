@@ -1,0 +1,108 @@
+ body{
+        margin: 0;
+        padding: 0;
+        background: url("أفكار مواقع ويب مربحة.jpg");
+        background-repeat: no-repeat;
+ }
+form{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+    width: 300px;
+    height: 400px;
+    background-color: rgb(0, 0, 0,.5);
+    border-radius: 15px;
+    box-sizing:border-box ;
+    
+    
+}
+img[alltt="used"]{
+    top: -50px;
+    left: 100px;
+    width: 290px;
+     height: 150px;
+     padding: 5px;
+    text-align:center ;
+    border-radius: 15px;
+   }
+   h2{
+    text-align: center;
+    color: rgb(255, 253, 253);
+    font-size: 30px;
+   }
+   input[type="text1"]{
+   position:absolute;
+    outline:none;
+    border:none;
+    width:250px;
+    height:35px;
+    border-bottom: 2px solid #0094ff;
+    background: none;
+    padding: 5px;
+    color: #fff;
+}
+input[type="text3"]{
+    position:absolute;
+     outline:none;
+     border:none;
+     width:250px;
+     height: 35px;
+     border-bottom: 2px solid #0094ff;
+     background: none;
+     padding: 5px;
+     color: #fff;
+ }
+ input[type="text2"]{
+    position:absolute;
+     outline:none;
+     border:none;
+     width:250px;
+     height: 35px;
+     border-bottom: 2px solid #0094ff;
+     background: none;
+     padding: 5px;
+     color: #fff;
+ }
+ input[type="text1"]{
+    top: 160px;
+    left: 15px;
+}
+input[type="text3"]{
+    top:240px;
+    left: 15px;
+}
+input[type="text2"]{
+    top: 200px;
+    left: 15px;
+}
+input[value="go"]{
+    position: absolute;
+    top:330px;
+    left: 90px;
+    width: 130px;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color:#fff;
+    border-radius: 15px;
+    font-size: 20px;
+}
+a{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    font-size: 40px;
+    top: 60px;
+    }
+   header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    position: fixed;
+    width: 95%;
+    z-index:100 ;
+    top: -40px;
+    
+}
